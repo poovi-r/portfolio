@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">MERN Stack Developer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-links">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="position-relative mb-md-5 mt-5">
+    <div class="container py-md-4">
+      <div class="row align-items-center pt-md-5 gap-0 row-gap-3">
+        <div class="col-12 col-md-6">
+          <p class="text-secondary name">Hey, I'm Poovarasan <span class="handshake-emoji">👋🏻</span></p>
+          <h1 class="role"><span>Full</span>stack Developer.</h1>
+          <p class="text-secondary intro">Fullstack developer passionate about clean UI and seamless UX. I help bring
+            ideas to life through elegant and efficient code.</p>
+          <button class="btn btn-primary get-in-touch-btn fw-medium">Get In Touch</button>
+          <button class="btn btn-outline-dark fw-medium">More About Me</button>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-end py-3">
+          <div class="pro-pic-div p-4 rounded-circle">
+            <img src="./Images/image-2.jpg" class="img-fluid rounded-circle w-100 object-fit-cover" alt="IMG">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll Down -->
+  <div class="d-none d-md-flex flex-column align-items-center pt-5">
+    <a href="#about" class="text-decoration-none down-icon">
+      <i class="bi bi-chevron-double-down fs-2"></i>
+    </a>
+  </div>
+
+  <!-- About -->
+  <section id="about" class="py-3 section-offset">
+    <div class="container">
+      <!-- Intro -->
+      <div>
+        <h2 class="fw-semibold about-me">Get to Know Me.</h2>
+        <p class="text-secondary">I'm a full-stack JavaScript developer with strong experience in the MERN stack. I
+          specialize in building fast, responsive, and user-focused web applications that deliver real value. Let's turn
+          your ideas into functional, scalable products.</p>
+      </div>
+
+      <!-- Skills -->
+      <div class="pb-5">
+        <h2 class="tech-skills">Skills</h2>
+        <div class="row justify-content-evenly gap-3">
+
+          <!-- HTML -->
+          <div class="glow html-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-html-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">HTML</p>
+          </div>
+
+          <!-- CSS -->
+          <div class="glow css-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-css3-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">CSS</p>
+          </div>
+
+          <!-- JS -->
+          <div class="glow js-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-javascript-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">JavaScript</p>
+          </div>
+
+          <!-- BS -->
+          <div class="glow bs-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-bootstrap-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">Bootstrap</p>
+          </div>
+
+          <!-- React -->
+          <div class="glow react-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-react-native-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">React.js</p>
+          </div>
+
+          <!-- Node -->
+          <div class="glow node-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-nodejs-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">Node.js</p>
+          </div>
+
+          <!-- Ex -->
+          <div class="glow ex-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-express-js-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">Express.js</p>
+          </div>
+
+          <!-- MongoDB -->
+          <div class="glow mdb-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-mongodb-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">MongoDB</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="pb-5">
+        <h2 class="tech-skills">Tools I Use</h2>
+        <div class="row justify-content-evenly gap-3">
+
+          <!-- VS Code -->
+          <div class="glow vsc-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-vs-code-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">VS Code</p>
+          </div>
+
+          <!-- Git -->
+          <div class="glow git-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-git-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">Git</p>
+          </div>
+
+          <!-- GitHub -->
+          <div class="glow github-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-github-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">GitHub</p>
+          </div>
+
+          <!-- ChatGPT -->
+          <div class="glow chatgpt-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-chatgpt-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">ChatGPT</p>
+          </div>
+
+          <!-- Vercel -->
+          <div class="glow vercel-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-vercel-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">Vercel</p>
+          </div>
+
+          <!-- Render -->
+          <div class="glow render-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-render-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal">Render</p>
+          </div>
+
+          <!-- Postman -->
+          <div class="glow postman-glow col-4 col-md-3 col-lg-2">
+            <img src="./Images/icons/icons8-postman-inc-100.png" class="w-75 h-auto" alt="html">
+            <p class="icon-heading mb-0 fw-normal text-center">Postman</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Education -->
+      <div id="education" class="py-5">
+        <div class="container">
+          <h2 class="fw-bold mb-4 edu">Education</h2>
+
+          <div>
+            <h5 class="fw-semibold">Bachelor's Degree in Mechanical Engineering</h5>
+            <p class="text-muted mb-1">Government College of Engineering, Salem</p>
+            <p class="text-muted mb-1">CGPA - 7.7</p>
+            <p class="text-muted">2018 - 2022</p>
+          </div>
+
+          <div class="mt-4">
+            <h5 class="fw-semibold">High School, Tamil Nadu State Board</h5>
+            <p class="text-muted mb-1">Sri Saraswathi Vidhyalaya, Kuttapatti(Salem)</p>
+            <p class="text-muted mb-1">Scored 91% in Maths & Computer Science</p>
+            <p class="text-muted">Year of Completion: 2018</p>
+          </div>
+
+          <div class="mt-4">
+            <h5 class="fw-semibold">Secondary School, Tamil Nadu State Board</h5>
+            <p class="text-muted mb-1">Sri Saraswathi Vidhyalaya, Kuttapatti(Salem)</p>
+            <p class="text-muted mb-1">Scored 96%</p>
+            <p class="text-muted">Year of Completion: 2016</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Journey -->
+      <div>
+        <h2 class="fw-semibold my-journey">Behind the Build</h2>
+        <p class="text-secondary">How I grew as a developer through passion and projects 🚀</p>
+        <div>
+          <p>My journey as a developer began with a curiosity to build things for the web. What started with learning
+            HTML and CSS quickly turned into a deep dive into JavaScript and the world of interactive, responsive
+            design.</p>
+          <p>Over time, I built a variety of personal projects from landing pages to full-stack applications each
+            helping me grow and refine my skills in UI design, UX flow, and scalable code. As I progressed, I mastered
+            the MERN stack and started developing complete full-stack solutions, which deepened my understanding of
+            real-world development and best practices.</p>
+          <p>Today, I continue to grow as a developer who's passionate about writing clean code, solving real
+            problems, and building meaningful digital experiences. And you know what? I truly love what I do. 💻✨</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-3 section-offset">
+    <div class="container">
+      <h2 class="fw-bold">Things I've Built</h2>
+
+      <!-- YouTube Clone -->
+      <div class="card my-3">
+        <div class="row">
+          <div class="col-md-6 order-1 order-md-2">
+            <img src="./Images/Youtube-clone.png" class="img-fluid rounded p-3" alt="Youtube-clone">
+          </div>
+          <div class="col-md-6 order-2 order-md-1 card-body d-flex flex-column justify-content-center align-items-center">
+            <h4 class="fw-semibold text-center">YouTube Homepage Clone</h4>
+            <p class="text-secondary text-center">
+              A clone of YouTube's homepage using HTML and CSS. Focused on layout, structure, and responsiveness.
+            </p>
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://poovi-r.github.io/Youtube-Clone/" target="_blank" class="text-dark"><i class="bi bi-tv"></i></a>
+              <a href="https://github.com/poovi-r/Youtube-Clone" target="_blank" class="text-dark"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Learning Platform UI -->
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./Images/Techfluent.png" class="img-fluid rounded p-3" alt="Youtube-clone">
+          </div>
+          <div class="col-md-6 card-body d-flex flex-column justify-content-center align-items-center">
+            <h4 class="fw-semibold">TechFluent - Learning Platform UI</h4>
+            <p class="text-secondary text-center">
+              Multi-page educational platform UI designed with HTML, CSS, Bootstrap, and JavaScript. Features Courses, Mentors, and Contact sections.
+            </p>
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://poovi-r.github.io/learning-Site/" target="_blank" class="text-dark"><i class="bi bi-tv"></i></a>
+              <a href="https://github.com/poovi-r/learning-Site" target="_blank" class="text-dark"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="card my-3">
+        <div class="row">
+          <div class="col-md-6 order-1 order-md-2">
+            <img src="./Images/Portfolio.png  " class="img-fluid rounded p-3" alt="Youtube-clone">
+          </div>
+          <div class="col-md-6 order-2 order-md-1 card-body d-flex flex-column justify-content-center align-items-center">
+            <h4 class="fw-semibold text-center">My Personal Portfolio</h4>
+            <p class="text-secondary text-center">
+              A fully responsive personal portfolio built using HTML, CSS, JavaScript, and Bootstrap. It showcases my skills, projects, education, and
+              developer journey in a modern layout. </p>
+            <div class="d-flex gap-3 fs-4">
+              <a href="https://poovi-r.github.io/portfolio/" target="_blank" class="text-dark"><i class="bi bi-tv"></i></a>
+              <a href="https://github.com/poovi-r/portfolio" target="_blank" class="text-dark"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact-me" class="py-3 mt-md-5 section-offset">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-12 col-md-5 pb-3">
+          <h2 class="contact-head fw-bold">Let's Connect</h2>
+          <p>Got a project or idea?</p>
+          <p class="text-secondary small">Whether it's a new opportunity, collaboration, or just a quick hello — I'm
+            always up for a chat.</p>
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:poovarasan.mern@gmail.com">poovarasan.mern@gmail.com</a>
+          </div>
+          <div class="d-flex gap-2">
+            <i class="bi bi-geo-alt-fill"></i>
+            <p class="d-inline">Salem, Tamil Nadu</p>
+          </div>
+          <div class="d-flex gap-2">
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter-x"></i>
+          </div>
+        </div>
+        <div class="col-12 col-md-7 pt-3">
+          <form action="#">
+            <div class="d-grid gap-3">
+              <div class="row d-flex gap-2">
+                <div class="col">
+                  <label for="inputname">Name</label>
+                  <input type="text" class="form-control" name="" id="inputname" placeholder="Your name" required>
+                </div>
+                <div class="col">
+                  <label for="inputmail">E-mail</label>
+                  <input type="email" class="form-control" name="" id="inputmail" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="pt-2">
+                <label for="inputmsg" class="pb-2">Leave us a message</label>
+                <textarea name="" id="inputmsg" class="form-control text-start" rows="4" placeholder="Please type your message here..."
+                  required></textarea>
+              </div>
+              <button class="btn btn-outline-dark contact-button w-auto ms-auto d-block fw-medium mb-3">Send
+                message</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <h1 class="thanks">Thanks for scrolling.</h1>
+        </div>
+        <span class="border-3 border-bottom border-dark"></span>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+
+</html>
