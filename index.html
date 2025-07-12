@@ -16,6 +16,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="./Images/icons/favicon.png" type="image/x-icon">
   <!-- CSS Files -->
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -74,16 +76,17 @@
     <div class="container">
       <!-- Intro -->
       <div>
-        <h2 class="fw-semibold about-me">Who I Am</h2>
+        <h2 class="about-me">Who I Am</h2>
         <p class="text-secondary">I'm a full-stack JavaScript developer with strong experience in the MERN stack. I
           specialize in building fast, responsive, and user-focused web applications that deliver real value. Let's turn
-          your ideas into functional, scalable products.</p>
+          your ideas into functional, scalable products.
+        </p>
       </div>
 
       <!-- Skills -->
-      <div class="pb-5">
-        <h2 class="tech-skills pb-3">Skills</h2>
-        <div class="row row-cols-3 row-cols-md-auto gap-4 justify-content-center">
+      <div class="pb-5 px-1">
+        <h3 class="tech-skills pb-3 text-center">Skills</h3>
+        <div class="row row-cols-3 row-cols-md-auto row-gap-4 column-gap-3 gap-md-4 justify-content-center">
 
           <!-- HTML -->
           <div class="glow html-glow col text-center">
@@ -136,9 +139,9 @@
       </div>
 
       <!-- Tools -->
-      <div class="pb-5">
-        <h2 class="tech-skills pb-3">Tools I Use</h2>
-        <div class="row row-cols-3 row-cols-md-auto gap-4 justify-content-center">
+      <div class="pb-5 px-1">
+        <h3 class="tech-skills pb-3 text-center">Tools I Use</h3>
+        <div class="row row-cols-3 row-cols-md-auto row-gap-4 column-gap-3 gap-md-4 justify-content-center">
 
           <!-- VS Code -->
           <div class="glow vsc-glow col-4 col-md-3 col-lg-2">
@@ -187,9 +190,68 @@
 
 
       <!-- Education -->
-      <div id="education" class="py-5">
+      <section id="education" class="py-5">
+        <div class="container px-0">
+          <h2 class="text-center fw-bold mb-5">Education</h2>
+
+          <div class="position-relative">
+            <div class="vertical-line position-absolute d-none d-md-block top-0 start-50 translate-middle-x border-start border-2 border-dark h-100"></div>
+
+            <!-- MERN Stack -->
+            <div class="row mb-4">
+              <div class="col-12 col-md-6 ps-md-5">
+                <div class="rounded p-3 position-relative shadow">
+                  <h5 class="fw-semibold">Full Stack Web Development (MERN)</h5>
+                  <p class="text-muted mb-1">Imagecon Academy, Salem</p>
+                  <p class="text-muted mb-1">Specialized in MongoDB, Express.js, React.js, and Node.js</p>
+                  <p class="text-muted">Completed in 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bachelor's -->
+            <div class="row mb-4">
+              <div class="col-12 col-md-6 pe-md-5 ms-md-auto">
+                <div class="rounded p-3 position-relative shadow">
+                  <h5 class="fw-semibold">Bachelor's Degree in Mechanical Engineering</h5>
+                  <p class="text-muted mb-1">Government College of Engineering, Salem</p>
+                  <p class="text-muted mb-1">CGPA - 7.7</p>
+                  <p class="text-muted">2018 - 2022</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- HSC -->
+            <div class="row mb-4">
+              <div class="col-12 col-md-6 ps-md-5">
+                <div class="rounded p-3 position-relative shadow">
+                  <h5 class="fw-semibold">High School, Tamil Nadu State Board</h5>
+                  <p class="text-muted mb-1">Scored 91% in Maths & Computer Science</p>
+                  <p class="text-muted">Completed in 2018</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SSLC -->
+            <div class="row mb-4">
+              <div class="col-12 col-md-6 pe-md-5 ms-md-auto">
+                <div class="rounded p-3 position-relative shadow">
+                  <h5 class="fw-semibold">Secondary School, Tamil Nadu State Board</h5>
+                  <p class="text-muted mb-1">Scored 96%</p>
+                  <p class="text-muted">Completed in 2016</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
         <div class="container">
-          <h2 class="fw-bold mb-4 edu">Education</h2>
+          <h3 class="mb-4 edu">Education</h3>
 
           <div>
             <h5 class="fw-semibold">Bachelor's Degree in Mechanical Engineering</h5>
@@ -213,12 +275,12 @@
           </div>
 
         </div>
-      </div>
+      </div> -->
 
 
       <!-- Journey -->
       <div>
-        <h2 class="fw-semibold my-journey">Behind the Build</h2>
+        <h3 class="my-journey">Behind the Build</h3>
         <p class="text-secondary">How I grew as a developer through passion and projects 🚀</p>
         <div>
           <p>My journey as a developer began with a curiosity to build things for the web. What started with learning
@@ -238,7 +300,7 @@
   <!-- Projects -->
   <section id="projects" class="py-3 section-offset">
     <div class="container">
-      <h2 class="fw-bold">Things I've Built</h2>
+      <h2>Things I've Built</h2>
 
       <!-- YouTube Clone -->
       <div class="card my-3">
@@ -266,7 +328,7 @@
             <img src="./Images/Techfluent.png" class="img-fluid rounded p-3" alt="Youtube-clone">
           </div>
           <div class="col-md-6 card-body d-flex flex-column justify-content-center align-items-center">
-            <h4 class="fw-semibold">TechFluent - Learning Platform UI</h4>
+            <h4>TechFluent - Learning Platform UI</h4>
             <p class="text-secondary text-center">
               Multi-page educational platform UI designed with HTML, CSS, Bootstrap, and JavaScript. Features Courses, Mentors, and Contact sections.
             </p>
