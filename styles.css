@@ -35,7 +35,6 @@ html {
   scroll-margin-top: 75px;
 }
 
-
 .role {
   font-size: clamp(2rem, 6vw, 5em);
   font-weight: 800;
@@ -44,6 +43,10 @@ html {
 
 .role span {
   color: blue;
+}
+
+.bi{
+  cursor: pointer;
 }
 
 .name {
@@ -132,12 +135,6 @@ h2 {
 
 .thanks {
   font-size: clamp(1rem, 1.5vw, 1.5em);
-}
-
-.bi:hover {
-  color: #0d6efd;
-  transition: 0.3s ease;
-  cursor: pointer;
 }
 
 .thanks span {
@@ -269,3 +266,12 @@ h2 {
     transform: translateY(5px);
   }
 }
+
+.project-icons{
+  transition: transform 0.75s;
+}
+
+.project-icons:hover {
+  transform: scale(1.2);
+}
+
