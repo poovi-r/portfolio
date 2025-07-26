@@ -44,22 +44,26 @@
   </header>
 
   <!-- Home -->
-  <section id="home" class="position-relative mb-md-5 mt-5">
-    <div class="container pt-5 pb-md-2">
-      <div class="row align-items-center pt-md-5 gap-0 row-gap-3">
+  <section id="home" class="position-relative mb-md-5 mt-5 section-offset">
+    <div class="container pt-5 pb-md-1">
+      <div class="row align-items-center pt-md-5 mt-md-2 gap-0 row-gap-3">
         <div class="col-12 col-md-6">
           <p class="text-secondary name">Hey, I'm Poovarasan <span class="handshake-emoji">👋🏻</span></p>
           <h1 class="role"><span>Full</span>stack Developer.</h1>
           <p class="text-secondary intro">Fullstack developer passionate about clean UI and seamless UX. I help bring
             ideas to life through elegant and efficient code.</p>
-          <button class="btn btn-primary get-in-touch-btn fw-medium">Get In Touch</button>
-          <button class="btn btn-outline-dark fw-medium">More About Me</button>
+          <button class="btn btn-primary get-in-touch-btn fw-medium" onclick="targetcontact()">Let's Connect</button>
+          <button class="btn btn-outline-dark fw-medium" onclick="resume()">Resume</button>
         </div>
         <div class="col-12 col-md-6 text-center text-md-end py-3">
-          <div class="pro-pic-div p-4 rounded-circle">
-            <img src="./Images/Image-1.png" class="img-fluid rounded-circle w-100 object-fit-cover" alt="IMG">
+          <div class="pro-pic-div p-4 rounded-circle position-relative">
+            <img src="./Images/Image-1.png" class="img-fluid rounded-circle w-100 object-fit-cover position-relative" alt="IMG">
+            <div class="orbit-div position-absolute top-0 start-0 w-100 h-100">
+              <span class="orbit-dot bg-primary rounded-circle position-absolute start-50 translate-middle-x"></span>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -195,12 +199,12 @@
           <h2 class="text-center fw-bold mb-5">Education</h2>
 
           <div class="position-relative">
-            <div class="vertical-line position-absolute d-none d-md-block top-0 start-50 translate-middle-x border-start border-2 border-dark h-100">
+            <div class="position-absolute d-none d-md-flex top-0 start-50 translate-middle-x border-start border-2 border-dark h-100">
             </div>
 
             <!-- MERN Stack -->
             <div class="row mb-4">
-              <div class="col-12 col-md-6 ps-md-5">
+              <div class="col-12 col-md-6 px-md-5">
                 <div class="rounded p-3 position-relative shadow">
                   <h5 class="fw-semibold">Full Stack Web Development (MERN)</h5>
                   <p class="text-muted mb-1">Imagecon Academy, Salem</p>
@@ -212,7 +216,7 @@
 
             <!-- Bachelor's -->
             <div class="row mb-4">
-              <div class="col-12 col-md-6 pe-md-5 ms-md-auto">
+              <div class="col-12 col-md-6 px-md-5 ms-md-auto">
                 <div class="rounded p-3 position-relative shadow">
                   <h5 class="fw-semibold">Bachelor's Degree in Mechanical Engineering</h5>
                   <p class="text-muted mb-1">Government College of Engineering, Salem</p>
@@ -224,7 +228,7 @@
 
             <!-- HSC -->
             <div class="row mb-4">
-              <div class="col-12 col-md-6 ps-md-5">
+              <div class="col-12 col-md-6 px-md-5">
                 <div class="rounded p-3 position-relative shadow">
                   <h5 class="fw-semibold">High School, Tamil Nadu State Board</h5>
                   <p class="text-muted mb-1">Scored 91% in Maths & Computer Science</p>
@@ -235,7 +239,7 @@
 
             <!-- SSLC -->
             <div class="row mb-4">
-              <div class="col-12 col-md-6 pe-md-5 ms-md-auto">
+              <div class="col-12 col-md-6 px-md-5 ms-md-auto">
                 <div class="rounded p-3 position-relative shadow">
                   <h5 class="fw-semibold">Secondary School, Tamil Nadu State Board</h5>
                   <p class="text-muted mb-1">Scored 96%</p>
@@ -408,7 +412,10 @@
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+    </script>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
